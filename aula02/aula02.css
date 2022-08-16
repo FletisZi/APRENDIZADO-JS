@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(106, 255, 255);
+    min-height: 100px;
+    border-bottom: 2px solid black;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input{
+    border: none;
+    background-color: rgb(106, 255, 255);
+    border-bottom: 1px solid black;
+    padding-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+h2{
+    font-size: 20px;
+    
+}
+
+button{
+    font-size: 15px;
+    height: 30px;
+    border: 2px solid black ;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+button:hover{
+    background-color: rgb(73, 202, 202);
+    transform: scale(1.1)
+
+}
+
+#containerDespesa{    
+    
+    background-color: rgba(253, 48, 48, 0.732);
+    min-height: 50px;
+    min-width: 300px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 40px;
+
+}
+#totalDespesa{
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+#totalReceita{
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+#conatinerReceita{
+    background-color: rgba(76, 115, 245, 0.732);
+    min-height: 50px;
+    min-width: 300px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+#total{
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    align-items: center;
+}

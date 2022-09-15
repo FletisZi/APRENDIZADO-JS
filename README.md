@@ -1,6 +1,6 @@
 ># *Vanilla JS Projects*
 
-## Este é repositario voltado para o pradizado em java script, cada projeto possui um aprendizado e um desafio!
+## Este é repositario voltado para o pradizado em javascript, cada projeto possui um aprendizado e um desafio!
 
 ># *Veja a Lista de projetos*
 
